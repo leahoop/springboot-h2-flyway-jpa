@@ -10,7 +10,7 @@ spring:
       ddl-auto: none
 
   datasource:
-    url: jdbc:h2:mem:demo
+    url: jdbc:h2:mem:demo;
     username: sa
     password:
     type: com.alibaba.druid.pool.DruidDataSource    # 使用阿里druid连接池
@@ -30,3 +30,7 @@ spring:
   flyway:
     clean-on-validation-error: true # 仅限开发环境使用
     locations: classpath:/db/migration
+
+juhe:
+  appKey: 28f53371cd64d295d5d038bc80ba05b6
+  url: http://web.juhe.cn:8080/finance/stock/hs

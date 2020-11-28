@@ -35,5 +35,5 @@ public class Dept implements Serializable {
     @Column(name = "create_time")
     @CreationTimestamp
     private Timestamp createTime;
-
+    
 }
